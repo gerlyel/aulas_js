@@ -8,3 +8,8 @@ const person = {
     isAdmin: true
 }
 
+
+//pegar uma propriedade do objeto
+
+
+console.log(person.name)
