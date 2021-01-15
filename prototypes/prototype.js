@@ -10,3 +10,15 @@
         
         por exemplo console.log(Number('9') + 5) a saída de dado vai ser uma soma resultando no resultado: 14
 */
+
+
+//Convertendo String para Number
+
+let string = '123'
+console.log(Number(string))
+
+//Convertendo Number para String
+
+let number = 321
+
+console.log(String(number))
