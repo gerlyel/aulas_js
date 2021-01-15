@@ -44,3 +44,21 @@ const sayMyName = (name) => {
 }
 
 sayMyName('Mário')
+
+
+//callback function
+
+function suco(fruta) {
+    console.log('antes da callback function')
+
+    fruta()
+
+    console.log('depois da callback function')
+}
+
+suco(
+
+    () => {
+        console.log('estou em um callback')
+    }
+ ) 
