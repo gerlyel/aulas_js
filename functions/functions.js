@@ -62,3 +62,23 @@ suco(
         console.log('estou em um callback')
     }
  ) 
+
+
+ //funções construtoras
+/*  *expressão new
+    *criar um novo object
+    *this keyword */ 
+
+ function Person(name, age, sex) {
+     this.name = name
+     this.age = age
+     this.sex = sex
+ }
+
+ const Mario = new Person('Mário', 18, 'male')
+ const Lucas = new Person('Lucas', 29, 'male')
+ const Vitoria = new Person('Vitória', 17, 'female')
+
+ console.log(Mario)
+ console.log(Lucas)
+ console.log(Vitoria)
