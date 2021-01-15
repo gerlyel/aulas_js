@@ -74,7 +74,7 @@ suco(
      this.age = age
      this.sex = sex
      this.walk = function(){
-         return 'está andando'
+         return `${this.name} tem ${this.age} e está andando` //pode retornar qualquer propriedade do object na function e só chamar depois
         }
  }
 
@@ -82,6 +82,6 @@ suco(
  const Lucas = new Person('Lucas', 29, 'male')
  const Vitoria = new Person('Vitória', 17, 'female')
 
- console.log(`${Mario.name} tem ${Mario.age} e`, Mario.walk())
- console.log(`${Lucas.name} tem ${Lucas.age} e`, Lucas.walk())
- console.log(`${Vitoria.name} tem ${Vitoria.age} e`, Vitoria.walk())
+ console.log(Mario.walk())
+ console.log(Lucas.walk())
+ console.log(Vitoria.walk())
