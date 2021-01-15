@@ -17,3 +17,11 @@ console.log(String(number).length)/* O .length não diz a quantidade de caracter
 let n = 827.10910385
 
 console.log(n.toFixed(2).replace(".", ","))
+
+// Transformar letra Maiúscula em minúscula e viceversa
+
+let string = 'Programar é muito bom!!'
+
+console.log(string.toUpperCase())   //Tudo dentro da string fica Maiúsculo/Cacha alta
+
+console.log(string.toLowerCase())   //Tudo dentro da string fica minúsculo/cacha baixa
