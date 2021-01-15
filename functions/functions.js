@@ -73,12 +73,15 @@ suco(
      this.name = name
      this.age = age
      this.sex = sex
+     this.walk = function(){
+         return 'está andando'
+        }
  }
 
  const Mario = new Person('Mário', 18, 'male')
  const Lucas = new Person('Lucas', 29, 'male')
  const Vitoria = new Person('Vitória', 17, 'female')
 
- console.log(Mario)
- console.log(Lucas)
- console.log(Vitoria)
+ console.log(`${Mario.name} tem ${Mario.age} e`, Mario.walk())
+ console.log(`${Lucas.name} tem ${Lucas.age} e`, Lucas.walk())
+ console.log(`${Vitoria.name} tem ${Vitoria.age} e`, Vitoria.walk())
