@@ -35,3 +35,12 @@ function pensar(pensamento){   //desse parametro pensamento
 console.log(pensar(pensamento)) //a saida de dado desse console.log vai ser: 'Estou com sede!'
 console.log(pensamento) //já a saida de dado desse console.log vai ser: 'Estou com fome!'
                         //pois o pensamento da function esta dentro de um escopo, então só será chamada caso a function seja chamada
+
+//arrow function
+//Funciona da mesma forma que uma function declarada, só é escrita de outra forma
+
+const sayMyName = (name) => {
+    console.log(name)
+}
+
+sayMyName('Mário')
