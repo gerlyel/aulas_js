@@ -31,6 +31,7 @@ console.log(string.toLowerCase())   //Tudo dentro da string fica minúsculo/cach
 
 let frase = 'Eu canto porque o instante existe e a minha vida está completa. Não sou alegre nem sou triste: sou poeta. Irmão das coisas fugidias, não sinto gozo nem tormento. Atravesso noites e dias no vento. Se desmorono ou se edifico, se permaneço ou me desfaço, — não sei, não sei. Não sei se fico ou passo. Sei que canto. E a canção é tudo. Tem sangue eterno a asa ritmada. E um dia sei que estarei mudo: — mais nada.'
 
+<<<<<<< HEAD
 console.log(frase.includes('canto'))
 
 
@@ -42,3 +43,6 @@ let myArray = phrase.split(" ")
 
 let phraseWithUnderscore = myArray.join("_")
 console.log(phraseWithUnderscore)
+=======
+console.log(frase.includes('canto'))
+>>>>>>> e59ebcb5003d1639809256e84c37e13cbb24c5c4
