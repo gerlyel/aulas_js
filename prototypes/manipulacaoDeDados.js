@@ -51,3 +51,5 @@ console.log(phraseWithUnderscore)
 let Arrays = new Array(10)
 console.log(Arrays)
 
+// contar elementos dentro de um array
+console.log([1, 2, 3, 4, 5, "a", "b", "C"].length)
