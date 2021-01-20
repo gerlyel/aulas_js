@@ -53,3 +53,8 @@ console.log(Arrays)
 
 // contar elementos dentro de um array
 console.log([1, 2, 3, 4, 5, "a", "b", "C"].length)
+
+// transformar uma cadeia de caracteres em elementos de um array
+
+let Word = "Manipulação"
+console.log(Array.from(Word))
