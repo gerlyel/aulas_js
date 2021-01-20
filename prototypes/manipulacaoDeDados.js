@@ -43,3 +43,11 @@ let myArray = phrase.split(" ")
 
 let phraseWithUnderscore = myArray.join("_")
 console.log(phraseWithUnderscore)
+
+// Manipulando arrays
+
+//Criando arrays com construtor
+
+let Arrays = new Array(10)
+console.log(Arrays)
+
