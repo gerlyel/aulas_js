@@ -27,5 +27,16 @@ let data = new Date('2021-01-20')
 
 console.log(data)
 
+/*
+    typeof
+    delete
+*/
+const person = {
+    name: 'Mário',
+    age: 18
+}
+delete person.age
+
+console.log(person)
 
 
