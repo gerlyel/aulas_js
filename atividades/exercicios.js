@@ -46,7 +46,7 @@ console.log(getScore(-70))
 
  */
 
- let gastos = {
+let gastos = {
      receitas: [200, 40.60, 1000.30],
      despesas: [300, 80.00, 295.40]
  }
@@ -61,7 +61,7 @@ function soma(array) {
     return total
 }
 
- function mostrarGastos() {
+function mostrarGastos() {
     const totalReceitas = soma(gastos.receitas)
     const totalDespesas = soma(gastos.despesas)
 
@@ -79,6 +79,21 @@ function soma(array) {
     console.log(`Seu saldo é ${menssagem}: ${total}`)
  }
 
- mostrarGastos()
+mostrarGastos()
 
 
+
+/*
+    Exercício 3:
+        TRANNSFORMAR CELSIUS EM FAHRENHEIT
+ 
+*/
+
+
+let temperatura = '50'
+
+function conversaoDegree(degree) {
+    const celsiusExists = degree.toUppercase().includes('C')
+    const fahrenheitExists = degree.toUppercase().includes('F')
+    
+}
